@@ -51,10 +51,11 @@ export default function LoginPage() {
     login(mockUser);
     navigate("home");
   };
-
+  /*
   const handleGoogleLogin = () => {
     alert("Google Login integration would be implemented here");
   };
+  */
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center px-4">
